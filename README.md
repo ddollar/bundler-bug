@@ -17,6 +17,7 @@ $ ruby -rubygems bin/test
     /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.4.0
     .
 
+
     [:products]
 
 ## With bundler
@@ -37,6 +38,7 @@ $ ruby -rubygems bin/test
     /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/powerpc-darwin10.4.0
     /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.4.0
     .
+
 
     /Users/david/.bundle/gems/sequel-3.21.0/lib/sequel/adapters/mysql.rb:6: LoadError: require 'mysql' did not define Mysql::CLIENT_MULTI_RESULTS! (Sequel::AdapterNotFound)
       You are probably using the pure ruby mysql.rb driver,
