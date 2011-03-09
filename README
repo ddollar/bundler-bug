@@ -1,0 +1,15 @@
+/Users/david/.bundle/gems/sequel-3.21.0/lib/sequel/adapters/mysql.rb:6: LoadError: require 'mysql' did not define Mysql::CLIENT_MULTI_RESULTS! (Sequel::AdapterNotFound)
+  You are probably using the pure ruby mysql.rb driver,
+  which Sequel does not support. You need to install
+  the C based adapter, and make sure that the mysql.so
+  file is loaded instead of the mysql.rb file.
+	from /Users/david/.bundle/gems/sequel-3.21.0/lib/sequel/core.rb:249:in `k_require'
+	from /Users/david/.bundle/gems/sequel-3.21.0/lib/sequel/core.rb:249:in `tsk_require'
+	from /Users/david/.bundle/gems/sequel-3.21.0/lib/sequel/core.rb:72:in `check_requiring_thread'
+	from /Users/david/.bundle/gems/sequel-3.21.0/lib/sequel/core.rb:69:in `synchronize'
+	from /Users/david/.bundle/gems/sequel-3.21.0/lib/sequel/core.rb:69:in `check_requiring_thread'
+	from /Users/david/.bundle/gems/sequel-3.21.0/lib/sequel/core.rb:249:in `tsk_require'
+	from /Users/david/.bundle/gems/sequel-3.21.0/lib/sequel/database/connecting.rb:25:in `adapter_class'
+	from /Users/david/.bundle/gems/sequel-3.21.0/lib/sequel/database/connecting.rb:54:in `connect'
+	from /Users/david/.bundle/gems/sequel-3.21.0/lib/sequel/core.rb:119:in `connect'
+	from bin/test:5

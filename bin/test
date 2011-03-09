@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require "sequel"
+
+
+puts
+puts $:
+puts
+
+db = Sequel.connect("mysql://localhost/growing")
+
+puts
+puts db.tables.inspect
+puts
